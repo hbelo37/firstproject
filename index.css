@@ -1,0 +1,99 @@
+body {
+    font-family: Poppins;
+    margin: auto;
+    background-image: url("dfxe250-97a765f1-fd06-4596-954c-985231a4590f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 10%;
+    color: #fff;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#incrementbtn {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#incrementbtn:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#incrementbtn:active {
+    transform: translateY(-1px);
+}
+
+#savebtn {
+    margin-top: 6%;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#savebtn:hover {
+    background-color: #239cc4;
+    box-shadow: 0px 15px 20px rgba(46, 165, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#savebtn:active {
+    transform: translateY(-1px);
+}
+
+.previously {
+    align-items: center;
+    width: 25%;
+    overflow-y: hidden;
+    overflow-wrap: normal;
+}
+
+#data{
+    text-align: center;
+}
